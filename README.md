@@ -10,7 +10,7 @@
 
 
 ## Projeto Final - Parte 1
-* Problema: Implementar um jogo em um grid 2D que possui diversos objetos diferentes, em que todos estes objetos, exceto o controlado pelo jogador, se movimentam constantemente da direita para a esquerda e interagem de diferentes formas com o objeto controlado pelo jogador.
+* Problema: Implementar um jogo em um grid 2D que possui diversos objetos diferentes, em que todos estes objetos, exceto o controlado pelo jogador, se movimentam constantemente da direita para a esquerda e interagem de diferentes formas com o objeto controlado pelo jogador, utilizando python 3 e as bibliotecas Random e Pygame.
 * O jogador tem como objetivo conseguir o maior número de pontos antes do fim do jogo.
 * A arena do jogo será representada por um grid 2D de tamanho 10x135, como a mostrada
 abaixo:
@@ -45,3 +45,8 @@ abaixo:
   2. Atingido por um inimigo: Se um inimigo se mover para a posição em que o jogador está, o jogo deverá ser encerrado.
 * Para todas as formas de encerrar o jogo deve ser mostrada uma mensagem de “GAME OVER”, motivo do fim do jogo e a pontuação final do jogador.
 * Após cada atualização, você deve limpar a tela antes de mostrar o novo estado do jogo.
+
+## Como executar
+1. Necessário ter python3 e as bibliotecas Random e Pygame instaladas
+2. Clone o repositório
+3. Executar o arquivo main.py
